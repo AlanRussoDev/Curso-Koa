@@ -1,0 +1,28 @@
+{
+  "name": "ss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanRussoDev/Curso-Koa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanRussoDev/Curso-Koa/issues"
+  },
+  "homepage": "https://github.com/AlanRussoDev/Curso-Koa#readme",
+  "dependencies": {
+    "koa": "^1.2.4",
+    "koa-route": "^2.4.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "charlatan": "^1.1.0",
+    "superagent": "^3.3.1"
+  }
+}
