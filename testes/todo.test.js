@@ -11,16 +11,19 @@ describe('models test todo', () => {
 
     let todo = new Todo(body);
 
-    it('should be have in Todo, descricao, date e status ', () => {        
+    it('should be todo a object', () => {
         todo.should.be.a('object');
+    })
+
+    it('should be have in Todo, descricao, initialDate e isDone ', () => {
         todo.should.have.property('details');
         todo.should.have.property('initialDate');
         todo.should.have.property('isDone');
 
     })
 
-    it('should be details is require and isDone is false', () => {
-        todo.details.should.be.a('String');
+    it('should be details  isDone is false', () => {
+        todo.details.should.be.not.null;
         todo.isDone.should.be.false;
     })
 })
